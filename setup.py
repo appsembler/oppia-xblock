@@ -51,5 +51,5 @@ setup(
             'oppia = oppia:OppiaXBlock',
         ]
     },
-    package_data=package_data("oppia", ["static", "public"]),
+    package_data=package_data("oppia", ["static", "templates", "translations"]),
 )

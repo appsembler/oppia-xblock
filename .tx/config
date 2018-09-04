@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[xblocks.xblock-oppia]
+source_file = oppia/translations/en/LC_MESSAGES/text.po
+file_filter = oppia/translations/<lang>/LC_MESSAGES/text.po
+source_lang = en
+type = PO
+
+[xblocks.xblock-oppia-js]
+source_file = oppia/translations/en/LC_MESSAGES/textjs.po
+file_filter = oppia/translations/<lang>/LC_MESSAGES/textjs.po
+source_lang = en
+type = PO
